@@ -1,0 +1,15 @@
+Id CommandLine
+-------------
+1 type nul > server.js
+2 npm init -y
+3 npm i express apollo-server-express graphql mongoose
+4 npm i -D nodemon
+5 npm run dev
+7 history
+10 npm run dev
+11 clear
+13 npm run dev
+14 type nul > resolver.js
+15 type nul > typeDefs.js
+16 mkdir models
+17 type null > models/Post.model.js
