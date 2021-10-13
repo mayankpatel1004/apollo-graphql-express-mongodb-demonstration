@@ -25,7 +25,7 @@ async function startServer() {
     console.log("Mongoose Connected.............");
 
     app.use((req, res) => {
-        res.send("Hello from express apollo server !!!");
+        res.send(`Hello from express apollo server. Read graphql.txt on root for demonstration. This is your graphql Link !!! <a target="_blank" href=http://localhost:${PORT}/graphql>Go To Graph QL</a></a>`);
     })
 
     app.listen(PORT, () => console.log(`Server is running on ${PORT}`));
